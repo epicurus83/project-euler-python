@@ -6,7 +6,6 @@ from solutions.problem_1_sum_multiples_of_3_and_5.solution_3 import solution_3
 
 _solutions = [solution_1, solution_2, solution_3]
 
-
 class MyTestCase(unittest.TestCase):
     def test_1_input_below_2_raises_exception(self):
         for _solution in _solutions:
